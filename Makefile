@@ -17,7 +17,7 @@ BIN ?= velero-plugin-for-csi
 
 BUILD_IMAGE ?= golang:1.13-stretch
 
-REGISTRY ?= velero
+REGISTRY ?= ashishamarnath
 IMAGE_NAME ?= $(REGISTRY)/velero-plugin-for-csi
 TAG ?= dev
 
