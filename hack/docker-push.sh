@@ -72,7 +72,7 @@ fi
 
 # Assume we're not tagging `latest` by default, and never on main.
 TAG_LATEST=false
-if [[ "$BRANCH" == "main" ]]; then
+if [[ "$BRANCH" == "foo" ]]; then
     echo "Building main, not tagging latest."
 elif [[ "$TAG" == "$HIGHEST" ]]; then
     TAG_LATEST=true
